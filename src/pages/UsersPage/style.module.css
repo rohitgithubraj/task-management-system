@@ -1,0 +1,7 @@
+.editBtn,
+.deleteBtn {
+  width: 70px;        
+  height: 32px;       
+  margin-right: 8px;  
+  text-align: center;
+}

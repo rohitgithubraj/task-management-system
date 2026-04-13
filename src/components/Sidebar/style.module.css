@@ -1,0 +1,79 @@
+/* Sidebar container */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #1e293b;
+  padding: 20px;
+  color: white;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  color: white;
+  margin-bottom: 20px;
+}
+
+.logo i {
+  font-size: 20px;
+}
+
+/* Nav links */
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #cbd5e1;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  text-decoration: none;
+  white-space: nowrap;
+  
+}
+
+.navlink i {
+  font-size: 18px;
+  display: inline-block;
+}
+
+/* Hover effect */
+.navlink:hover {
+  background: #334155;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Active link (optional) */
+.navlink.active {
+  background: #3b82f6;
+  color: white;
+}
+
+/* Logout button */
+.logout {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #f87171;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Logout hover */
+.logout:hover {
+  background: #7f1d1d;
+  color: white;
+}
